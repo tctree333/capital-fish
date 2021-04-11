@@ -151,7 +151,7 @@
 </script>
 
 <section
-	class="text-left p-8 bg-white rounded-md my-12 pb-1 lg:max-h-[80vh] lg:overflow-y-scroll tabular-nums"
+	class="text-left p-8 bg-white rounded-md mt-12 pb-1 lg:max-h-[80vh] lg:overflow-y-scroll tabular-nums"
 >
 	<div class="mb-6 border-b-2 pb-2 flex justify-between">
 		<h2 class="font-medium text-3xl ">Store</h2>

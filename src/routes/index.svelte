@@ -55,7 +55,15 @@
 		<ClickButton />
 	</section>
 
-	<Store />
+	<div>
+		<Store />
+		<p class="float-right mt-4 mr-4 text-gray-500 mb-12">
+			Open source on
+			<a href="https://github.com/tctree333/capital-fish" class="underline hover:no-underline"
+				>GitHub</a
+			>.
+		</p>
+	</div>
 </main>
 
 <FallingObjectManager />
