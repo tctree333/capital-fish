@@ -164,7 +164,7 @@
 		</button>
 	</div>
 	{#each storeItems as item, index}
-		<div class="md:flex justify-between items-center content-center mb-10">
+		<div class="md:flex justify-between items-center content-center mb-8">
 			<div class="flex content-center items-center justify-start mb-2">
 				<img
 					src={item.image.src}
@@ -204,7 +204,7 @@
 					<button
 						on:click={sell(index)}
 						disabled={item.count === 0}
-						class="block mt-0.5 mx-auto disabled:opacity-30 underline disabled:cursor-not-allowed {item.count ===
+						class="block text-lg py-2 px-4 mx-auto disabled:opacity-30 underline disabled:cursor-not-allowed {item.count ===
 							0 || item.sell === 0
 							? ''
 							: 'hover:no-underline'}">Sell</button

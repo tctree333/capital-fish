@@ -18,6 +18,8 @@
 
 <svelte:head>
 	<title>{title}</title>
+	<meta name="description" content="{description}">
+
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:locale" content="en_US" />
@@ -57,7 +59,7 @@
 
 	<div>
 		<Store />
-		<p class="float-right mt-4 mr-4 text-gray-500 mb-12">
+		<p class="float-right mt-4 mr-4 text-gray-600 mb-12">
 			Open source on
 			<a href="https://github.com/tctree333/capital-fish" class="underline hover:no-underline"
 				>GitHub</a
