@@ -18,7 +18,7 @@
 
 <svelte:head>
 	<title>{title}</title>
-	<meta name="description" content="{description}">
+	<meta name="description" content={description} />
 
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
@@ -44,6 +44,12 @@
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="skype_toolbar" content="skype_toolbar_parser_compatible" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+	<script
+		async
+		defer
+		data-domain="capitalfish.tomichen.com"
+		src="https://plausible.io/js/plausible.js"></script>
 </svelte:head>
 
 <main class="px-12 pt-12 mx-auto lg:flex max-w-7xl justify-between">
