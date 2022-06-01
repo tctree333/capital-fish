@@ -35,7 +35,7 @@
 	<meta property="og:image:type" content={preview_image.type} />
 	<meta property="og:image:alt" content={preview_image.alt} />
 
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content={preview_image.url} />
 	<meta name="twitter:image:alt" content={preview_image.alt} />
 

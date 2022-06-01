@@ -23,9 +23,9 @@ export const metadata = {
 	url: 'https://capitalfish.tomichen.com/',
 	domain: 'capitalfish.tomichen.com',
 	preview_image: {
-		url: '/assets/CapitalFish.png',
+		url: '/assets/capitalfish-social.png',
 		type: 'image/png',
-		alt: 'a fish with a gold dollar sign and dollar bills sticking out'
+		alt: 'capital fish: catch fish for fun and profit'
 	}
 };
 
